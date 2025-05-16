@@ -6,7 +6,7 @@ const HomePage = () => {
   return (
     <>
     <Intro/>
-    <Content/>
+    <Content/> 
     </>
   )
 }

@@ -1,0 +1,26 @@
+@keyframes expand {
+  0% {
+    transform: translateY(100%) scaleY(0);
+     
+    transform-origin: bottom;
+  }
+  40%,
+  60% {
+    transform: translateY(0) scaleY(1);
+    transform-origin: top;
+  }
+  100% {
+    transform: translateY(-100%) scaleY(0);
+    transform-origin: top;
+  }
+}
+
+
+.final {
+  animation: expand 2.5s forwards;
+}
+
+.final2 {
+  animation: expand 3s forwards;
+
+}
